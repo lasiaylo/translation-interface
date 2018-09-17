@@ -1,12 +1,16 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
+import { DropdownButton, Image }  from 'react-bootstrap';
+import Textarea from 'react-textarea-autosize';
+import Toggle from 'react-toggle';
+
 import TranslateText from '../Translation/Translate';
-import { DropdownButton }  from 'react-bootstrap';
 import LanguageForm from './LanguageForm'
 import GetLanguages from '../Translation/Languages';
 import DetectLanguage from '../Translation/Detect';
-import Textarea from 'react-textarea-autosize';
 import Directions from './Directions';
+
+import Switch from '../Assets/switch.png';
 
 class Translation extends Component {
     constructor(props) {
@@ -26,9 +30,9 @@ class Translation extends Component {
         this.handleInText = this.handleInText.bind(this);
         this.handleOutText = this.handleOutText.bind(this);
         this.handleChangeLanguage = this.handleChangeLanguage.bind(this);
-    }
-
-    componentDidUpdate(){
+        this.handleChangeInLanguage = this.handleChangeInLanguage.bind(this);
+        this.handleChangeAuto = this.handleChangeAuto.bind(this);
+        this.switch = this.switch.bind(this);
     }
 
     handleInText(event) {
@@ -40,6 +44,7 @@ class Translation extends Component {
         if (auto) {
             DetectLanguage(inText, inLanguage => this.setState({ inLanguage }))
         }
+
         TranslateText(inText, inLanguage, outLanguage, this.handleOutText);
         this.setState({inText});
     }
@@ -80,6 +85,43 @@ class Translation extends Component {
         this.setState({ outLanguage });
     }
 
+    handleChangeInLanguage(inLanguage) {
+        const { outLanguage, inText } = this.state;
+        this.myRef.click();
+        TranslateText(inText, inLanguage, outLanguage, this.handleOutText);
+        this.setState({ inLanguage });
+    }
+    
+    handleChangeAuto(){
+        const { auto } = this.state;
+        this.setState({ auto: !auto });
+    }
+
+    switch(){
+        let { inLanguage, outLanguage, inText, outText } = this.state;
+
+        console.log('-----------------------------')
+        console.log(inLanguage)
+        console.log(outLanguage)
+        console.log(inText)
+        console.log(outText)
+        let buffer = inLanguage;
+        inLanguage = outLanguage;
+        outLanguage = buffer;
+
+        buffer = inText;
+        inText = outText;
+        outText = buffer;
+
+        console.log('--')
+        console.log(inLanguage)
+        console.log(outLanguage)
+        console.log(inText)
+        console.log(outText)
+
+        this.setState({ inLanguage, outLanguage, inText, outText });
+    }
+
     render() {
         const {
             auto,
@@ -87,10 +129,13 @@ class Translation extends Component {
             languages,
             inLanguage,
             outLanguage,
+            inText,
             outText,
         } = this.state;
         let inTitle = '';
         let outTitle = 'German';
+        console.log('RENDERING');
+        console.log(auto);
         if (languages){
             outTitle = languages[outLanguage].name;
             inTitle = auto ?
@@ -104,7 +149,7 @@ class Translation extends Component {
                 ref={ref => this.myRef = ref}
             >
                 <div className='translation-row'>
-                <div className='box in' onHover={console.log('HOVERRR')}>
+                <div className='box in'>
                     <div className='button-row'>
                         <DropdownButton
                             bsStyle='Default'
@@ -112,16 +157,27 @@ class Translation extends Component {
                         >
                             <LanguageForm
                                 languages={languages}
-                                callback={this.handleChangeLanguage}
+                                callback={this.handleChangeInLanguage}
                             />
                         </DropdownButton>
+
+                        <Toggle
+                            defaultChecked={auto}
+                            aria-label={'Auto'}
+                            onChange={this.handleChangeAuto}
+                        />
+                        <span className='toggle-label'>Auto</span>
+
                     </div>
                     <Textarea
                         className='input-field'
+                        value={inText}
                         onChange={this.handleInText}
                         minRows={5}
                     />
                 </div>
+
+                    <Image className='switch-icon' src={Switch} onClick={this.switch} />
 
                 <div className='box out'>
                     <div className='button-row'>

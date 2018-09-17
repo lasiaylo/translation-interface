@@ -7,7 +7,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-            <Translation />
+          <span className='header'>Translate</span>
+          <Translation />
       </div>
     );
   }

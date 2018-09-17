@@ -7,7 +7,7 @@ class Button extends Component {
 
         this.state = {
             active: false
-        }
+        };
 
         this.handleClick = this.handleClick.bind(this);
     }

@@ -12,6 +12,7 @@
     "react-dom": "^16.5.1",
     "react-scripts": "1.1.5",
     "react-textarea-autosize": "^7.0.4",
+    "react-toggle": "^4.0.2",
     "react-transition-group": "^2.4.0",
     "reactjs-popup": "^1.2.0"
   },
