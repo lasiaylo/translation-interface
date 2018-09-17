@@ -40,12 +40,12 @@ class Translation extends Component {
         let inText = event.target.value;
 
         // inText.replace(/[\r\n]+/g, '33123');
-        inText = inText.replace(/[\r\n]+/g,".] ");
+        const buffer = inText.replace(/[\r\n]+/g,".] ");
         if (auto) {
-            DetectLanguage(inText, inLanguage => this.setState({ inLanguage }))
+            DetectLanguage(buffer, inLanguage => this.setState({ inLanguage }))
         }
 
-        TranslateText(inText, inLanguage, outLanguage, this.handleOutText);
+        TranslateText(buffer, inLanguage, outLanguage, this.handleOutText);
         this.setState({inText});
     }
 

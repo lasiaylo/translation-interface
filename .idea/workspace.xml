@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97647004-2f1f-4c4c-bef3-d417e5c39517" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Translation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Translation.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,7 +52,7 @@
           <entry key="html" value="63" />
           <entry key="js" value="1887" />
           <entry key="json" value="9" />
-          <entry key="jsx" value="16015" />
+          <entry key="jsx" value="16041" />
           <entry key="scss" value="3094" />
         </counts>
       </usages-collector>
@@ -62,7 +61,7 @@
           <entry key="CSS" value="235" />
           <entry key="HTML" value="63" />
           <entry key="JSON" value="9" />
-          <entry key="JSX Harmony" value="16015" />
+          <entry key="JSX Harmony" value="16041" />
           <entry key="JavaScript" value="1887" />
           <entry key="SCSS" value="3094" />
         </counts>
@@ -70,7 +69,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.2995338">
+    <splitter split-orientation="horizontal" split-proportion="0.40384614">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -85,11 +84,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Components/Translation.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="241">
-                  <caret line="47" column="60" lean-forward="true" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
+                <state relative-caret-position="267">
+                  <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
                   <folding>
                     <element signature="e#0#23#0" expanded="true" />
                   </folding>
@@ -97,11 +96,25 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/index.css">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/Desktop/Text-Translation-API-V3-NodeJS-master/Languages.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="195">
+                  <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="465">
-                  <caret line="39" column="86" selection-start-line="39" selection-start-column="86" selection-end-line="39" selection-end-column="86" />
+                <state relative-caret-position="165">
+                  <caret line="11" column="25" selection-start-line="10" selection-start-column="24" selection-end-line="11" selection-end-column="25" />
                   <folding>
                     <element signature="e#758#1219#0" />
                   </folding>
@@ -130,8 +143,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/Components/Directions.jsx">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="139">
-                      <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+                    <state relative-caret-position="210">
+                      <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
                       <folding>
                         <element signature="e#0#41#0" expanded="true" />
                       </folding>
@@ -152,20 +165,20 @@
           </split-first>
           <split-second>
             <leaf>
-              <file pinned="false" current-in-tab="true">
+              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/App.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="439">
-                      <caret line="328" column="13" selection-start-line="328" selection-start-column="13" selection-end-line="328" selection-end-column="13" />
+                    <state relative-caret-position="181">
+                      <caret line="243" column="28" selection-start-line="243" selection-start-column="23" selection-end-line="243" selection-end-column="28" />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="false">
+              <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/Components/Button.jsx">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="285">
-                      <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+                    <state relative-caret-position="255">
+                      <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
                       <folding>
                         <element signature="e#0#41#0" expanded="true" />
                       </folding>
@@ -234,11 +247,11 @@
         <option value="$PROJECT_DIR$/src/Translation/Translate.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Components/Directions.jsx" />
-        <option value="$PROJECT_DIR$/src/Components/Translation.jsx" />
         <option value="$PROJECT_DIR$/src/Components/Button.jsx" />
         <option value="$PROJECT_DIR$/src/Components/LanguageForm.jsx" />
         <option value="$PROJECT_DIR$/src/App.scss" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/Components/Translation.jsx" />
       </list>
     </option>
   </component>
@@ -258,11 +271,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1680" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2052" />
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1008" />
+    <option name="width" value="1548" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -295,6 +308,12 @@
               <item name="translation-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="translation-interface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="translation-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Translation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="translation-interface" type="b2602c69:ProjectViewProjectNode" />
@@ -383,7 +402,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58614000" />
+    <option name="totallyTimeSpent" value="58787000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,16 +414,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="23" width="1920" height="1008" extended-state="6" />
+    <frame x="1680" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09636651" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09636651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3242358" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32331607" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -488,9 +507,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/InputForm.jsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/InputForm.jsx" />
     <entry file="file://$PROJECT_DIR$/src/Translation/Detect.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -516,9 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-844">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -532,13 +546,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-transition-group/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/react-transition-group/package.json" />
     <entry file="file://$PROJECT_DIR$/node_modules/react-transition-group/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -546,17 +554,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/dropdown.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="n#!!block;n#handleClick#0;n#CustomToggle#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/dropdown.jsx" />
     <entry file="file://$PROJECT_DIR$/src/Translation/Translate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -583,8 +581,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Directions.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        <state relative-caret-position="210">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -603,8 +601,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Translation.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="47" column="60" lean-forward="true" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
+        <state relative-caret-position="267">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -613,8 +611,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Button.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -623,15 +621,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="328" column="13" selection-start-line="328" selection-start-column="13" selection-end-line="328" selection-end-column="13" />
+        <state relative-caret-position="181">
+          <caret line="243" column="28" selection-start-line="243" selection-start-column="23" selection-end-line="243" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="39" column="86" selection-start-line="39" selection-start-column="86" selection-end-line="39" selection-end-column="86" />
+        <state relative-caret-position="165">
+          <caret line="11" column="25" selection-start-line="10" selection-start-column="24" selection-end-line="11" selection-end-column="25" />
           <folding>
             <element signature="e#758#1219#0" />
           </folding>
