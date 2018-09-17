@@ -52,9 +52,6 @@ class Translation extends Component {
     handleOutText(outText, english) {
         outText = this.format(outText);
         english = this.format(english);
-
-        console.log(outText);
-        console.log(english);
         this.handleDirections(outText, english);
         this.setState({ outText })
     }
@@ -86,10 +83,10 @@ class Translation extends Component {
     }
 
     handleChangeInLanguage(inLanguage) {
-        const { outLanguage, inText } = this.state;
+        const { outLanguage, inText, auto } = this.state;
         this.myRef.click();
         TranslateText(inText, inLanguage, outLanguage, this.handleOutText);
-        this.setState({ inLanguage });
+        this.setState({ auto: !auto, inLanguage });
     }
     
     handleChangeAuto(){
@@ -99,12 +96,6 @@ class Translation extends Component {
 
     switch(){
         let { inLanguage, outLanguage, inText, outText } = this.state;
-
-        console.log('-----------------------------')
-        console.log(inLanguage)
-        console.log(outLanguage)
-        console.log(inText)
-        console.log(outText)
         let buffer = inLanguage;
         inLanguage = outLanguage;
         outLanguage = buffer;
@@ -112,12 +103,6 @@ class Translation extends Component {
         buffer = inText;
         inText = outText;
         outText = buffer;
-
-        console.log('--')
-        console.log(inLanguage)
-        console.log(outLanguage)
-        console.log(inText)
-        console.log(outText)
 
         this.setState({ inLanguage, outLanguage, inText, outText });
     }
@@ -134,8 +119,6 @@ class Translation extends Component {
         } = this.state;
         let inTitle = '';
         let outTitle = 'German';
-        console.log('RENDERING');
-        console.log(auto);
         if (languages){
             outTitle = languages[outLanguage].name;
             inTitle = auto ?
@@ -162,7 +145,7 @@ class Translation extends Component {
                         </DropdownButton>
 
                         <Toggle
-                            defaultChecked={auto}
+                            checked={auto}
                             aria-label={'Auto'}
                             onChange={this.handleChangeAuto}
                         />

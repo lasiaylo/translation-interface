@@ -44,15 +44,18 @@ class Directions extends Component {
     discernDirection(i) {
         const { directions } = this.props;
         const instruction = directions.english[i];
-        if (instruction.includes('left')) {
-            return left;
+        if  (instruction) {
+            if (instruction.includes('left')) {
+                return left;
+            }
+            if (instruction.includes('right')) {
+                return right;
+            }
+            if (instruction.includes('forward') || instruction.includes('ahead')) {
+                return forward;
+            }
         }
-        if (instruction.includes('right')) {
-            return right;
-        }
-        if (instruction.includes('forward') || instruction.includes('ahead')) {
-            return forward;
-        }
+
     }
 
     render() {

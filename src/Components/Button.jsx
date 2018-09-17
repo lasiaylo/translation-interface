@@ -21,7 +21,6 @@ class Button extends Component {
     render() {
         let { className, src } = this.props;
         const { active } = this.state;
-        console.log(active);
         className = active ? className + ' active' : className;
         return (
             <Image className={className} src={src} onClick={this.handleClick} />

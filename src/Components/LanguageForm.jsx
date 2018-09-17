@@ -6,13 +6,8 @@ import { Button, ButtonGroup } from 'react-bootstrap';
 class LanguageForm extends Component {
     constructor(props){
         super(props);
-        console.log(props);
         this.makeButton = this.makeButton.bind(this);
         this.handleChange = this.handleChange.bind(this);
-
-        this.state = {
-            value: ''
-        };
     }
 
     handleChange(e) {
