@@ -8,7 +8,7 @@ let https = require ('https');
 // **********************************************
 
 // Replace the subscriptionKey string value with your valid subscription key.
-let subscriptionKey = 'b4e7e9a26ab2417ca950cabdca225030';
+let subscriptionKey = 'd028579fb84f4c00a651e0ea895af103';
 
 let host = 'api.cognitive.microsofttranslator.com';
 let path = '/translate?api-version=3.0';
